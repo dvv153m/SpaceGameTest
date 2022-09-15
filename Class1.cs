@@ -1,6 +1,6 @@
 public interface IMovable
 {
-    public Vector Position{get;set};//
+    public Vector Position{get;set};
     public Vector Velocity{get;set};
 
     public void SetPosition(Vector newPos);
